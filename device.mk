@@ -406,7 +406,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    Remove_Packages
+    RemovePackages
 
 # RIL
 PRODUCT_PACKAGES += \
