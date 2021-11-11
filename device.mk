@@ -372,6 +372,9 @@ PRODUCT_PACKAGES += \
     TelephonyMojito \
     WifiMojito
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client

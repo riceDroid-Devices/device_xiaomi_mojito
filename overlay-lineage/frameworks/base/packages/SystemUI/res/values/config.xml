@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-/* //device/apps/common/assets/res/any/dimens.xml
-**
-** Copyright 2006, The Android Open Source Project
+/*
+** Copyright 2017, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,14 +16,8 @@
 ** limitations under the License.
 */
 -->
-<resources>
-    <!-- Height of the status bar in portrait. The height should be
-         Max((status bar content height + waterfall top size), top cutout size) -->
-    <dimen name="status_bar_height_default">90px</dimen>
 
-    <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">119px</dimen>
-    
-    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
-    <dimen name="rounded_corner_radius_adjustment">22px</dimen>
+<resources>
+    <!-- FPSInfoService Fps file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/card0/sde-crtc-0/measured_fps</string>
 </resources>
