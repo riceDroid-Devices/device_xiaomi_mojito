@@ -297,6 +297,7 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
 
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
@@ -408,6 +409,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.power.rc \
     init.qcom.rc \
+    init.camera.rc \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc

@@ -25,7 +25,11 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+<<<<<<< HEAD
 import /vendor/etc/init/hw/init.qcom.power.rc
+=======
+import /vendor/etc/init/hw/init.camera.rc
+>>>>>>> ea0f6e3 (mojito: rootdir: Import specifics K7 camera configs)
 import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.target.rc
 
