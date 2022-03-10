@@ -6,3 +6,8 @@ allow platform_app rild:binder { call  transfer };
 # Allow systemui to read vendor_sysfs_graphics
 allow platform_app vendor_sysfs_graphics:dir search;
 allow platform_app vendor_sysfs_graphics:file r_file_perms;
+
+allow platform_app cgroup:file { read };
+
+get_prop(platform_app, audio_config_prop)
+get_prop(platform_app, vendor_audio_prop)
