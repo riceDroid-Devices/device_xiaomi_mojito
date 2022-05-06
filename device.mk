@@ -233,6 +233,10 @@ PRODUCT_PACKAGES += \
     FM2 \
     qcom.fmradio
 
++# FUSE Passthrough
++PRODUCT_PRODUCT_PROPERTIES += \
++    persist.sys.fuse.passthrough.enable=true    
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
