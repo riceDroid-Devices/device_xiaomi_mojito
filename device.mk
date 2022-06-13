@@ -554,6 +554,11 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libwfdaac_vendor
 
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
+
+
 # Wlan
 PRODUCT_CFI_INCLUDE_PATHS += \
     hardware/qcom-caf/wlan/qcwcn/wpa_supplicant_8_lib
